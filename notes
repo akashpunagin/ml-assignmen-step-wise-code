@@ -1,0 +1,50 @@
+FACE RECOGNITION IN ATTENDANCE SYSTEM​
+By, ​
+
+Akash E Punagin (1RV21MC009)​
+
+Deepak M B (1RV21MC035)​
+
+1. Problem statement
+	1.1 What is the problem
+		Task T
+			1. Face detection (Find the faces in the image) 
+			2. Face recognition (Recognize the faces in the image)
+		Experience E
+			Considering a pre-trained model which is trained with a dataset
+		Performance P
+			How well the deep learning model predicts the faces
+			
+	1.2 Why the problem needs to be solved
+		Motivation
+			Face recognition can be easily done by humans even under different lighting conditions even if the faces are obstructed by accessories and facial hair or even if the face is in some weird angle. Despite major advances in the field of computer vision implementing face recognition at scale in real time is a challenge.
+		Solution benefits and usage
+			Face recognition is a method of identifying or verifying the identity of an individual using their face. Face recognition systems can be used to identify people in photos, video, or in real-time. Law enforcement may also use mobile devices to identify people during police stops.
+		
+
+2. Dataset and features
+	Total data points (images) used for training - 3 million approx.
+	Dataset name - Labeled faces in the wild (LFW)
+		LFW dataset is derived from a number of datasets like The face scrub dataset [H.-W. Ng, S. Winkler. A data-driven approach to cleaning large face datasets. Proc. IEEE International Conference on Image Processing (ICIP), Paris, France, Oct. 27-30, 2014], the VGG dataset [O. M. Parkhi, A. Vedaldi, A. Zisserman Deep Face Recognition British Machine Vision Conference, 2015] and a number of other images added by the creator of dlib library - Davis King, from the internet. Davis King filtered half of the images from the VGG datset and Face scrub dataset to reduce the labelling errors
+
+3. Tools and technologies used
+OpenCV
+Python
+Deep learning
+	
+
+4. Identification of Deep learning algorithm and justification
+	The pre-trained model used is a ResNet model with 29 convolution layers. Its a version of ResNet-34 network [Deep Residual Learning for Image Recognition by He, Zhang, Ren, and Sun] with a few layers removed and the number of filters per layer is reduced by half.
+	The state-of-art accuracy of the ResNet model is 99.38%
+	
+5. Methodology	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
